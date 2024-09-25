@@ -41,9 +41,11 @@ const TodoList = () => {
                     </li>
                 )))}
             <li className="itemcounter list-group-item d-flex ms-0"> {todos.length} item left</li>
-            <li className="list-group-item  p-1"></li>
-            <li className="list-group-item p-1"></li>
-           </ul>
+            <div>
+                <li className="d-flex ms-1 me-1 list-group-item p-1"></li>
+                <li className="d-flex ms-2 me-2 list-group-item p-1"></li>
+            </div>
+        </ul>    
 </div>
     );
 };
